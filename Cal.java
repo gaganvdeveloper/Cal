@@ -4,5 +4,9 @@ class Cal
 	{
 		add(10,20);
 	}
-
+	
+	static void add(int a, int b)
+	{
+		System.out.println("Sum Is : "+(a+b));
+	}
 }
